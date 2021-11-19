@@ -14,7 +14,7 @@ try:
     mymodule = importlib.import_module(subname)
 except Exception as e:
     print(e)
-    print("Rename your written program as YOUR_SRN.py and run python3.7 SampleTest.py --SRN YOUR_SRN ")
+    print("Rename your written program as YOUR_SRN.py and run python3.7 SampleTests.py --SRN YOUR_SRN ")
     sys.exit()
 
 fill_with_mode = mymodule.fill_with_mode

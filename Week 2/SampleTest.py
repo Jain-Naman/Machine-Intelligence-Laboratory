@@ -11,7 +11,7 @@ subname = args.SRN
 try:
     mymodule = importlib.import_module(subname)
 except:
-    print("Rename your written program as YOUR_SRN.py and run python3.7 SampleTest.py --SRN YOUR_SRN ")
+    print("Rename your written program as YOUR_SRN.py and run python3.7 SampleTests.py --SRN YOUR_SRN ")
     sys.exit()
 
 
